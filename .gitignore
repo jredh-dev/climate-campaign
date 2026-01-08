@@ -1,0 +1,36 @@
+# Binaries
+/server
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go
+/vendor/
+go.work
+go.work.sum
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.pem
+
+# Build artifacts
+/dist/
+/bin/
+
+# Logs
+*.log
